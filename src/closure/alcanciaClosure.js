@@ -15,8 +15,9 @@ function alcanciaMejorada () {
     let guardarMonedas = 0;
     
     function contarMonedas(monedas) {
+        console.log(monedas)
         guardarMonedas += monedas;
-        console.log(`El dinero guardado en la alcancia mejorada es de: $${guardarMonedas}`);
+        // console.log(`El dinero guardado en la alcancia mejorada es de: $${guardarMonedas}`);
     }
 
     return contarMonedas;
